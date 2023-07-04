@@ -2,7 +2,13 @@
 vercel-kv python version
 wapper for https://vercel.com/docs/storage/vercel-kv/rest-api
 
+### install
+```
+pip install vercel_kv
+```
+
 ### usage
+
 set env
 ```
 export VERCEL_KV_URL="redis://default:4ce4fedaa7924fXXXXXXXXXXXXX.vercel-storage.com:34840"
