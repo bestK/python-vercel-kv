@@ -27,7 +27,7 @@ setup(
     ],
     package_dir={"": "src"},
     include_package_data=True,
-    install_requires=["python-dotenv==1.0.0"],
+    install_requires=["python-dotenv==1.0.0", "requests~=2.31.0", "pydantic~=2.1.1"],
     extras_require={'dev': ['pytest', 'tox']},
     entry_points={},
 )
